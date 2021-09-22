@@ -8,7 +8,7 @@ const server = Server.configure({
   extensions: [
     new Logger(),
     new Monitor(),
-    new RocksDB({ path: './var/data' }),
+    new RocksDB({ path: './db' }),
   ],
 })
 
